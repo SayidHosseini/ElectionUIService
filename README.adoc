@@ -1,3 +1,5 @@
-=== FUM-Elect Authentication Microservice ===
+=== FUM-Elect User Interface Microservice ===
 
-This is a key component from the https://github.com/SayidHosseini/FUM-Elect[FUM-Elect] project.
+This is a key componenet in our FUM Election microservice project. It is written with Node Js and Express.js . It provides us a web based user interface that allows us to create elections and vote in our FUM election Service. But this module is more than a interface, all the validation take place here, so if you want to deploy your projects in real world, you shouldn't expose the API on other modules to the out world. 
+This module tries to connect to Authentication Service, Election Manager Service, Election Panel Service on configured addresses and ports. you cand see and change this addresses in the config/config.js file. 
+
